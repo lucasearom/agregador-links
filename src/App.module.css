@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 3.75rem auto;
+    width: 18.75rem;
+    height: 31.25rem;
+}
+
+.footer > p {
+    font-size:0.75rem;
+    font-weight: 500;
+    color: rgba(0, 8, 47, 0.6);
+}

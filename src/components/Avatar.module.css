@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+span {
+    margin: auto;
+    border: 4px solid #4263EB;
+    border-radius: 50%;
+    width: 6.25rem;
+    height: 6.25rem;
+    
+}
+
+.avatar {
+    width: 5.75rem;
+    height: 5.75rem;
+    border-radius: 50%;
+    margin: auto;
+    padding: 3px;
+}
+
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.name {
+    color: #00082F;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.username {
+    color: rgba(0, 8, 47, 0.8);
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 1.125rem;
+    text-align: center;
+}
